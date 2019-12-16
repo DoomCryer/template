@@ -10,7 +10,7 @@ module.exports = override(
     javascriptEnabled: true,
     modifyVars: {
       // To modify global colors of antd components
-      '@primary-color': '#FF0000',
+      // '@primary-color': '#40a9ff',
     },
   }),
 );
