@@ -1,4 +1,9 @@
 import React from 'react';
-import styles from './styles.less';
+import './styles.less';
+import { DatePicker } from 'antd';
 
-export const Test = () => <div className={styles.root}> Test </div>;
+export const Test = () => (
+  <div className="root">
+    <DatePicker />
+  </div>
+);
