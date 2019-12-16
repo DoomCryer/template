@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import { Test } from './components/Test';
+import './App.less';
+import { Test } from '../Test';
 
 const App: React.FC = () => {
   return (
