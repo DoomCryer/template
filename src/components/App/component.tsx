@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.less';
-import { Test } from '../Test';
+import { Test } from '../../pages/Test';
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <div className="App">
       <Test />
     </div>
   );
 };
-
-export default App;
