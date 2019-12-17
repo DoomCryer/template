@@ -1,3 +1,5 @@
+import { RouteComponentProps } from 'react-router-dom';
+
 export interface HelloWorldStore {
   message: string;
   loading: boolean;
@@ -17,4 +19,4 @@ export interface DispatchProps {
   sayHelloFromServer: (name: string) => void;
 }
 
-export type Props = StateProps & DispatchProps & OwnProps;
+export type Props = StateProps & DispatchProps & OwnProps & RouteComponentProps;
