@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.less';
-import { Test } from '../../pages/Test';
+import './styles.less';
+import { HelloWorld } from '../HelloWorld';
 
 export const App: React.FC = () => {
   return (
     <div className="App">
-      <Test />
+      <HelloWorld />
     </div>
   );
 };

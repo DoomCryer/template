@@ -1,3 +1,3 @@
-import loginSagas from './components/Login/sagas';
+import helloWorldSagas from './pages/HelloWorld/sagas';
 
-export default [loginSagas];
+export default [helloWorldSagas];
